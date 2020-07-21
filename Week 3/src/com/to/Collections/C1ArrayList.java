@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class C1ArrayList {
-	public static void main(String... args) {
+	public static void main(String... args) {           /////////
 		ArrayList<String> a1 = new ArrayList<String>(); 
 		a1.add("java");
 		a1.add("spring"); 
