@@ -5,7 +5,7 @@ import java.util.*;
 public class BlogTitles {
 
 
-    private Set<String> javaTitles;
+    private Set<String> javaTitles;  // added remark under 7-22-20 branch
 
 
     private Set<String> webTitles;
