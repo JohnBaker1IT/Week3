@@ -33,9 +33,9 @@ public class P1 {
         phonebook.put("Brenda", 123123);
         phonebook.put("Brenda", 22222);
         phonebook.put(null, 000);
-        if(phonebook.containsKey("Brenda")) {
-            phonebook.remove("Brenda");
-        }
+		/*
+		 * if(phonebook.containsKey("Brenda")) { phonebook.remove("Brenda"); }
+		 */
         //phonebook.clear();
         System.out.println(phonebook);
         
