@@ -38,7 +38,7 @@ public class AccountManager {
 		BankAccount bankAccount3 = new BankAccount();
 		bankAccounts.add(bankAccount3);
 		bankAccount3.setOwnerName("Mary");
-		List<String> addresses3 = List.of("126 Mulberry St.", "111 Cherry St.");
+		List<String> addresses3 = List.of("126 Mulberry St.", "111 Cherry St.");//
 		bankAccount3.setAddresses(addresses3);
 		bankAccount3.mapAdd(bankAccount3.getOwnerName(), bankAccount3.getAddresses());
 		
