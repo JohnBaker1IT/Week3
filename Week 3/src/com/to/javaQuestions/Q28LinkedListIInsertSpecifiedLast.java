@@ -9,21 +9,26 @@ public class Q28LinkedListIInsertSpecifiedLast {
    public static void main(String[] args) {
 
 	// create an empty linked list
-	     LinkedList<String> li = new LinkedList<String>();
+	   LinkedList <String> li = new LinkedList <String> ();
 	   // use add() method to add values in the linked list
-	          li.add("Red");
-	          li.add("Green");
-	          li.add("Black");
-	     System.out.println("Original linked list:" + li);    
-	   // Add an element at the beginning 
-	    li.addFirst("White");
-	    li.addFirst(li.get(0));
-	 
-	   // Add an element at the end of list 
-	    li.addLast("Pink");
-	    li.addLast(li.get(li.size()-1));
-	     System.out.println("Final linked list:" + li);  
-	 }
-   
+	   li.add("Science");
+	   li.add("History");
+	   li.add("Math");
+
+	   // print original list
+	   System.out.println("Original linked list:" + li);
+
+	   // create a new collection and add some elements
+
+	   LinkedList <String> newLi = new LinkedList <String> ();
+	   newLi.add("*Like");
+	   newLi.add("Love*");
+
+	   // Add the collection in the second position of the existing linked list
+	   li.addAll(2, newLi);
+
+	   // print the new list
+	   System.out.println("LinkedList:" + li);
+   }
    
 }
