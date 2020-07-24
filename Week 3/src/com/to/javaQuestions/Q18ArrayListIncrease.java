@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-public class Q17ArrayListIncrease {
+public class Q18ArrayListIncrease {
    public static void main(String[] args) {
 
 	  
