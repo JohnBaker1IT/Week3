@@ -11,10 +11,12 @@ import p2accountManagerModel.BankAccountsPrint;
 
 import java.util.ArrayList;
 
-public class Q3ArrayFirstPositionInsert {
+public class Q05ArraySetValueAtPosition {
    public static void main(String[] args) {
 
-      // create an empty array list with an initial capacity
+      int index = 0;
+      
+	   // create an empty array list with an initial capacity
       ArrayList<Integer> arrlist = new ArrayList<Integer>(5);
 
       // use add() method to add elements in the list
@@ -25,17 +27,16 @@ public class Q3ArrayFirstPositionInsert {
 
    // let us print all the elements available in list
       for (Integer number : arrlist) {
-         System.out.println("Number = " + number);
+         System.out.println("At index " + index + " Value = " + number);
+         index++;
       } 
       
       // adding element 25 at third position
       arrlist.add(0,25);
       
-      System.out.println("After adding to the begining . . . ");
+      System.out.println("value at index 0: " + arrlist.get(0));
+      System.out.println("value at index 2: " + arrlist.get(2));
       
-      for (Integer number : arrlist) {
-          System.out.println("Number = " + number);
-       } 
        
    }
 }   

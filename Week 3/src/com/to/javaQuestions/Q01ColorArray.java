@@ -9,7 +9,7 @@ import java.util.List;
 import p2accountManagerModel.BankAccount;
 import p2accountManagerModel.BankAccountsPrint;
 
-public class Q1ColorArray {
+public class Q01ColorArray {
 	public static void main(String[] args) {
 		String cBlue = "blue";
 		String cRed = "red";

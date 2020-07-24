@@ -11,7 +11,7 @@ import p2accountManagerModel.BankAccountsPrint;
 
 import java.util.ArrayList;
 
-public class Q5ArraySetValueAtPosition {
+public class Q06ArrayListRemove {
    public static void main(String[] args) {
 
       int index = 0;
@@ -32,11 +32,15 @@ public class Q5ArraySetValueAtPosition {
       } 
       
       // adding element 25 at third position
-      arrlist.add(0,25);
+      arrlist.remove(2);
       
-      System.out.println("value at index 0: " + arrlist.get(0));
-      System.out.println("value at index 2: " + arrlist.get(2));
+      System.out.println("Third element removed . . .");
       
+      index = 0;
+      for (Integer number : arrlist) {
+          System.out.println("At index " + index + " Value = " + number);
+          index++;
+       } 
        
    }
 }   

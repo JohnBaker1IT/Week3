@@ -3,7 +3,7 @@ package com.to.javaQuestions;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-public class Q7ArrayListSearch {
+public class Q07ArrayListSearch {
    public static void main(String[] args) {
       List aList = new ArrayList();
       aList.add("A");

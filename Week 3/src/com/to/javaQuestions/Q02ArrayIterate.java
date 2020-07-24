@@ -9,7 +9,7 @@ import java.util.List;
 import p2accountManagerModel.BankAccount;
 import p2accountManagerModel.BankAccountsPrint;
 
-public class Q2ArrayIterate {
+public class Q02ArrayIterate {
 	public static void main(String[] args) {
 		String item1 = "item1";
 		String item2 = "item2";
