@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-public class Q25LinkedListIterateInsert {
+public class Q25LinkedListIInsert {
    public static void main(String[] args) {
 
 	// create an empty linked list
