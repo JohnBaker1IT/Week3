@@ -2,7 +2,7 @@ package com.to.Collections;
 
 public class Stack {
 	private int[] items = new int[100];
-	private int top = -1; //index to keep track of the topmost element
+	private int top = -1; //index to keep track of the topmost element//
 	
 	public boolean isEmpty() {
 		return top < 0;
