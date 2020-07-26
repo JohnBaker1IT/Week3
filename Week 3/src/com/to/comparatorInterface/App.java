@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-class Person implements Comparable<Person>{
+class Person implements Comparable<Person>{ //
 	private String name;
 	public Person(String name) { 
 		this.name = name;
